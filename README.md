@@ -41,7 +41,5 @@ https://pushpa2708.github.io/Personal-Portfolio-Pushpa/
 
 ## Contact
 If there are any questions or if you would like to connect, you can reach the portfolio owner via:
-*   **Email:** your.email@example.com
 *   **LinkedIn:** https://www.linkedin.com/in/pushpa-25b142302/
 *   **GitHub:**github.com/Pushpa2708/
----
