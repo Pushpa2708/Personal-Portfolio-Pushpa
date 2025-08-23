@@ -27,7 +27,7 @@ To get a local copy up and running, follow these steps:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/Pushpa2708/Pesonal-Portfolio-Pushpa.git
+    git clone https://github.com/Pushpa2708/Personal-Portfolio-Pushpa.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
