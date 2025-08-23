@@ -37,7 +37,7 @@ To get a local copy up and running, follow these steps:
 
 ## Live Demo
 Check out the live version of this portfolio here:
-[Link to your live demo, e.g., on GitHub Pages or Netlify]
+"not deployed yet"
 
 ## Contact
 If there are any questions or if you would like to connect, you can reach the portfolio owner via:
