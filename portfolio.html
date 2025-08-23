@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Website</title>
+
+  <!-- Font Awesome CDN -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+   <div class="side-nav" id="side-nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Service</a>
+    <a href="#portfolio">Project</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <header class="header">
+   
+ <div class="hamburger" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<a href="#" class="logo">Portfolio</a>
+<button id="theme-toggle" style="margin-left: auto; padding: 8px 15px; border-radius: 20px; border:none; cursor:pointer; margin-right: auto;">
+    🌙
+  </button>
+
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Service</a>
+      <a href="#portfolio">Project</a> 
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, Myself</h3>
+      <h1>Pushpa</h1>
+      <h3>And I am a <span class="multiple-text"></span></h3> <!-- fixed class -->
+      <p>I am a dedicated Java Developer and MERN Stack enthusiast with a strong interest in building scalable and efficient web applications. I love turning ideas into reality through clean and optimized code.</p>
+
+      <div class="social-media"> <!-- fixed class name -->
+        <a href="https://github.com/Pushpa2708"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/pushpa-25b142302/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <a href="portfolio web/image/resume.pdf"download="Pushpa_CV.pdf" class="btn">Download CV</a>
+    </div>
+    
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+  <div class="about-img">
+    <img src="image/myPhotos.jpg" alt="About Image" />
+  </div>
+  <div class="about-container">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Java Developer</h3>
+       <p class="short-about">I am a dedicated software developer skilled in Java, JavaScript, and the MERN stack (MongoDB, Express, React, Node.js). I build robust and scalable web applications with clean and efficient code.
+</p>
+        <p class="more-about" style="display:none;"> 
+         I am currently pursuing a Bachelor’s degree in Computer Science Engineering<br>
+         from Deen Dayal Upadhaya Gorakhpur University , Gorakhpur ,Uttar Pradesh.<br>
+         I have experience working with technologies such as Java, JavaScript, and modern web frameworks. I enjoy solving complex problems and continuously improving my skills through hands-on projects and learning.
+    <br>
+      My goal is to become a proficient software engineer who contributes to innovative projects that positively impact users and businesses. I am eager to collaborate in dynamic teams and take on challenging opportunities in AI and web technologies.
+        </p>
+        <a href="#" class="btn read-more-btn">Read more</a>
+
+
+  </div>
+</section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="service-container">
+      <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Developer Lead</h3>
+        <p class="short-about">
+          <b>Resort Management System</b> — Frontend Lead (Semester Project)<br>
+        </p>
+        <p class="more-about" style="display:none;">
+          Led the frontend development of a Resort Management System designed to streamline booking, customer management, and service scheduling. Focused on creating an intuitive and responsive user interface.
+
+
+        </p>
+      <a href="#" class="btn read-more-btn">Read more</a>
+
+      </div>
+      <div class="services-box">
+        <i class="fas fa-cloud"></i>
+        <h3>AI in Cybersecurity — Research Thesis</h3>
+      <p class="short-about">
+        Conducted a comprehensive research thesis on the application of Artificial Intelligence in Cybersecurity using secondary data.
+      </p>
+      <p class="more-about" style="display:none;">
+        Analyzed existing studies, datasets, and cybersecurity frameworks to evaluate the effectiveness of AI techniques in detecting and preventing cyber threats.
+
+
+      </p>
+      <a href="#" class="btn read-more-btn">Read more</a>
+      </div>
+
+     
+  </section>
+    <!-- my cerification-->
+  <section id="certificates" class="services">
+  <h2 class="heading">My <span>Certificates</span></h2>
+  <div class="services-container">
+    
+    <div class="services-box">
+      <img src="image/deloite technicaljob.png" alt="Web Dev Certificate" class="certificate-img" />
+      <h3>Deloitte Australia- Technical Job Simulation</h3>
+      <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_B6mC38ddbHoEo65o9_1753244474171_completion_certificate.pdfc:\Users\p8318\OneDrive\Pictures\Screenshots\Screenshot 2025-08-08 181324.png" target="_blank" class="btn">View Certificate</a>
+    </div>
+
+    <div class="services-box">
+      <img src="image\Javascript.png" alt="Java Certificate" class="certificate-img" />
+      <h3>JavaScript Algorithm and DataStructure</h3>
+      <a href="https://freecodecamp.org/certification/fccbcd65a40-af70-4375-88b5-dada21ab4ebf/javascript-algorithms-and-data-structures-v8" target="_blank" class="btn">View Certificate</a>
+    </div>
+    <div class="services-box">
+      <img src="image/resopnsiveWeb.png" alt="Java Certificate" class="certificate-img" />
+      <h3>Responsive Web Design</h3>
+      <a href="https://freecodecamp.org/certification/fccbcd65a40-af70-4375-88b5-dada21ab4ebf/responsive-web-design" target="_blank" class="btn">View Certificate</a>
+    </div>
+    <div class="services-box">
+      <img src="image/codingChallenge.png" alt="Java Certificate" class="certificate-img" />
+      <h3>Certificate of Paricipation in Coding Round</h3>
+      <a href="https://unstop.com/certificate-preview/2977bffc-1215-467d-ae50-e7ead8842922?utm_campaign=site-emails" target="_blank" class="btn">View Certificate</a>
+    </div>
+        <div class="services-box">
+      <img src="image/weekyCaseChallenge.png" alt="Java Certificate" class="certificate-img" />
+      <h3>Certificate of Excellence in Challenge 25 of weekly Case Challeneg</h3>
+      <a href="https://unstop.com/certificate-preview/ca6fd5af-118a-45ca-9ebe-6e4a1363b83c?utm_campaign=site-emails" target="_blank" class="btn">View Certificate</a>
+    </div>
+    
+    
+    <!-- Add more certificates in similar boxes -->
+
+  </div>
+</section>
+
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio"> <!-- fixed id -->
+    <h2 class="heading"> My Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+       <div class="portfolio-box">
+        <img src="image/portfolio.png" alt="Project 1" />
+        <div class="portfolio-layer">
+          <h4>Portfolio website </h4>
+          <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      
+      <!-- Repeat this box for each project -->
+     <div class="portfolio-box">
+        <img src="image/news.png" alt="Project 1" />
+        <div class="portfolio-layer">
+          <h4>News-Website</h4>
+
+          <a href="https://soft-pasca-d3cd66.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          <a href="https://github.com/Pushpa2708/NewsTrackIndia-News--Website"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+      </div>
+      
+        <div class="portfolio-box">
+        <img src="image/QR.png" alt="Project 1" />
+        <div class="portfolio-layer">
+          <h4>QR-Generator</h4>
+          
+          <a href="https://lambent-hamster-2fdce1.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          <a href="https://github.com/Pushpa2708/Simple-QR-Generator--UI"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+        </div>
+      
+            
+      
+      <!-- other portfolio-box items... -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+  <h2 class="heading"> Contact <span>Me</span></h2>
+  <form>
+    <div class="input-box">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+    </div>
+    <div class="input-box">
+      <input type="number" placeholder="Mobile Number" required />
+      <input type="text" placeholder="Email Subject" />
+    </div>
+    <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <a href="mailto:someone@example.com" class="btn" type="submit">Send Message</a>
+
+   <!-- <input type="submit" value="Send Message" class="btn" />-->
+  </form>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2025 by @Pushpa | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Custom JS -->
+  <script src="portfolio.js"></script>
+</body>
+</html>
