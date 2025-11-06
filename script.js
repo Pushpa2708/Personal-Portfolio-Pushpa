@@ -4,7 +4,7 @@ const navBar = document.querySelector('.navbar');
 const sideNav = document.getElementById('side-nav');
 
 menuIcon.addEventListener('click', () => {
-  menuIcon.classList.toggle('fa-xmark'); // Make sure your CSS styles this to show the X icon
+  menuIcon.classList.toggle('fa-xmark'); 
   navBar.classList.toggle('active');
   sideNav.classList.toggle('open');
 });
@@ -35,7 +35,7 @@ document.querySelectorAll('.read-more-btn').forEach(btn => {
   });
 });
 
-// Scroll spy and sticky header (optional, from your code)
+// Scroll spy and sticky header
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('header nav a');
 
@@ -58,13 +58,13 @@ window.onscroll = () => {
   const header = document.querySelector('header');
   header.classList.toggle('sticky', scrollY > 100);
 
-  // Remove hamburger active classes on scroll (optional)
+  // Remove hamburger active classes on scroll 
   menuIcon.classList.remove('fa-xmark');
   navBar.classList.remove('active');
   sideNav.classList.remove('open');
 };
 
-// ScrollReveal and Typed.js initialization (if you want to keep them)
+
 ScrollReveal({
   distance: '40px',
   duration: 2000,
